@@ -43,3 +43,9 @@ sqoop import -Dorg.apache.sqoop.splitter.allow_text_splitter=true \
 --table Movie \
 --target-dir s3://groupmsba/Movie \
 --as-parquetfile
+
+
+## Loading Fact Tables in the data Warehouse 
+
+sqoop import --connect jdbc:mysql://groupdb.clvyneobhqj2.us-east-1.rds.amazonaws.com/IMDB_NORMALIZED --username admin --password groupdb1234567890 --table PerformanceFact --target-dir s3://groupmsba/PerformanceFact --as-parquetfile
+sqoop import --connect jdbc:mysql://groupdb.clvyneobhqj2.us-east-1.rds.amazonaws.com/IMDB_NORMALIZED --username admin --password groupdb1234567890 --table RelationshipFact --target-dir s3://groupmsba/RelationshipFact --as-parquetfile
