@@ -1,5 +1,5 @@
 - **`Project` :** IMDb Dataset - Data Engineering for Business Impact
-- **`Project duration` :** 2024.11.26 - 2023.12.04
+- **`Project duration` :** 2023.11.26 - 2023.12.04
 - **`Contributors` :** Anne Lim, Aime Munezero
 - **`Presentation Deck`:** [Download](https://github.com/AimeM250/Big-Data-Project/files/13709170/Presentation_Deck.pdf)
 - **`Report`:** [Download](https://github.com/AimeM250/Big-Data-Project/files/13709153/Report.pdf)
